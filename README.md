@@ -31,8 +31,8 @@ Mean resolution time dropped about **72 hours per year** (95% CI: 67–77, p < 0
 
 ![Average response time by year](outputs/figures/03_response_time_by_year.png)
 
-**2. Requests logged through the City Worker App close faster.**
-After controlling for request type, department and neighborhood, City Worker App requests closed about **169 hours faster** than resident app (Citizens Connect) requests (95% CI: 126–213). Typical waits also differ sharply by channel: the median request closed in about 2.5 hours through the City Worker App and 9 hours through the resident app, compared with 62 hours (about 2.6 days) for phone calls and 75 hours (about 3 days) for self-service web reports.
+**2. Channels differ a lot in raw waits, but mostly because of what gets reported through them.**
+Median waits differ sharply by channel: about 2.5 hours through the City Worker App and 9 hours through the resident app (Citizens Connect), compared with 62 hours (about 2.6 days) for phone calls and 75 hours (about 3 days) for self-service web reports. But once request type, department and neighborhood are held constant, the differences between the resident app, phone and web are no longer statistically significant. People report different kinds of issues through each channel, and the issue type drives most of the wait. Only the City Worker App stays clearly faster, at about **169 hours faster** than the resident app after controls (95% CI: 126–213).
 
 ![Response time by submission source](outputs/figures/02_response_time_by_source.png)
 
@@ -55,7 +55,7 @@ A chi-square test confirmed that request types differ by neighborhood (χ² = 40
 
 - **Report the median alongside the mean.** The mean alone overstates the improvement. A city dashboard that only tracks averages would credit faster service when the real change was clearing a backlog of old cases.
 - **Focus resources on the slow categories.** Sidewalk repair, pavement marking and permit cases are where residents wait longest.
-- **Don't read the app result as proof the app causes faster service.** City Worker App requests are often logged by staff who fix the issue on the spot (see Limitations).
+- **Don't push app adoption on speed grounds alone.** After controls, resident app, phone and web reports resolve at similar speeds. The City Worker App advantage likely reflects staff logging issues they fix on the spot (see Limitations).
 
 ---
 
